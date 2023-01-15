@@ -266,6 +266,28 @@ works section--- */
     height: 100%;
 }
 
+.work-btn {
+    display: flex;
+    justify-content: right;
+}
+
+.see-more-btn {
+    background-color: #fff;
+    color: #FF0063;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 15px;
+    border-radius: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.see-more-btn:hover {
+    background-color: #ff00626f;
+    color: #000;
+}
+
 /* ----
  facts section -----*/
 .facts {
@@ -558,7 +580,7 @@ media queries--------
         padding: 0 4%;
     }
 
-    
+
     .about .contact p {
         padding: 0;
     }
