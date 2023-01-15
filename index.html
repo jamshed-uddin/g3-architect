@@ -7,22 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>G3 Architects
     </title>
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/05e1db3a4f.js" crossorigin="anonymous"></script>
     <!-- stylesheet -->
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header class="header">
+    <header id="home" class="header">
 
         <h1 class="logo">G3 Architects</h1>
 
 
         <nav class="navbar">
             <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">WORKS</a></li>
-                <li><a href="#">CONTACT</a></li>
-                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#feature">FEATURES</a></li>
+                <li><a href="#work">WORKS</a></li>
+                <li><a href="#about-us">ABOUT US</a></li>
             </ul>
         </nav>
 
@@ -49,7 +51,7 @@
             feature section 1
          -->
 
-        <section class="feature-1">
+        <section id="feature" class="feature-1">
             <div class="image-container">
                 <div><img src="images/team1.png" alt=""></div>
                 <div><img src="images/team2.png" alt=""></div>
@@ -112,6 +114,18 @@
 
         </section>
         <!-- 
+            works section
+         -->
+        <section id="work" class="work-section">
+            <h2>Our featured works</h2>
+            <div class="work-container">
+                <div class="work work-1"><img src="images/work-1.jpg" alt="Our work"></div>
+                <div class="work work-2"><img src="images/work-2.jpg" alt="Our work"></div>
+                <div class="work work-3"><img src="images/work-3.jpg" alt="Our work"></div>
+                <div class="work work-4"><img src="images/work-4.jpg" alt="Our work"></div>
+            </div>
+        </section>
+        <!-- 
             facts section
          -->
         <section class="facts">
@@ -156,11 +170,27 @@
                 <p> <img src="images/sponsors/spotify.png" alt=""></p>
             </div>
         </section>
-
     </main>
-    <footer class="footer">
+    <footer id="about-us" class="footer">
+        <div class="about">
+
+            <div class="about-text">
+                <h3>About us</h3>
+                We are a collective of architects, designers, engineers, and planners working together to build a better
+                future.We channel all of our expertise toward solutions for reducing carbon impact. Sustainability is
+                not an add-on, but the driving principle of each project.
+
+            </div>
+            <div class="contact">
+                <h3>Contact</h3>
+                <input type="email" placeholder="Your email">
+                <textarea placeholder="Message"></textarea>
+                <button class="submit-btn btn">Submit</button>
+            </div>
+        </div>
         <p>All rights reserved copyright@2023 startup landing page design</p>
     </footer>
+
 </body>
 
 </html>
